@@ -1,0 +1,350 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}" />
+<link rel="shortcut icon" type="image/x-icon"
+	href="{% static 'img/favicon.ico' %}">
+<meta charset="UTF-8">
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- <script type="text/javascript" src="{% static 'script.js' %}"></script> -->
+<!-- <script type="text/javascript" media="screen and (max-width: 600px)" src="{% static 'small_script.js' %}"></script> -->
+<script type="text/javascript" media="screen and (min-width: 600px)"
+	src="{% static 'script.js' %}"></script>
+
+<title>Tré Calhoun | Software Engineer</title>
+</head>
+<body>
+	<div id="main">
+
+		<div>
+			<div id="exBox1"></div>
+			<div id="box1">
+				<div id="overlay1">
+					<div>
+						<h1>
+							<abbr title="About">About</abbr>
+						</h1>
+					</div>
+				</div>
+			</div>
+
+			<div class="left">
+				<div id="exBox6"></div>
+				<div id="box2">
+					<div id="overlay2">
+						<div>
+							<h1>
+								<abbr title="Résumé">Résumé</abbr>
+							</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="exBox2"></div>
+			<div id="exBox3"></div>
+		</div>
+
+		<div id="box1TextBoxes">
+			<div class="clear">
+				<br />
+			</div>
+			<div class="textBox topLeftArrow">
+				<p>
+					<span class="color title">HELLO</span><br />My name is Tré
+					Calhoun.
+				</p>
+				<p>I recently graduated from Cornell University with a B.A. and M.Eng. in
+					Computer Science. My main area of interest is artificial
+					intelligence, natural language processing and generation, and
+					machine learning.</p>
+				<p>I am a software engineer and a designer.</p>
+			</div>
+			<div class="close">
+				<p>close</p>
+			</div>
+			<br class="clear" />
+		</div>
+
+		<div id="box2TextBoxes">
+			<div class="clear">
+				<br />
+			</div>
+			<div class="textBox topRightArrow">
+				<h3>Education</h3>
+				<p>
+					<a href="http://www.cornell.edu/" target="_blank"
+						class="color title">CORNELL UNIVERSITY</a> <i>College of
+						Engineering, Ithaca, New York </i><br /> Master of Engineering in
+					Computer Science<br />Expected Graduation: December 2014
+				</p>
+				<p>
+					<a href="http://www.cs.cornell.edu/" target="_blank"
+						class="color title">CORNELL UNIVERSITY</a> <i>College of Arts
+						and Sciences, Ithaca, New York</i> <br />Bachelor of Arts, Graduated:
+					May 2014<br />Major: Computer Science, Minor: Theatre Performance
+					<br />Concentration: Artificial Intelligence / Natural Language
+					Processing / Machine Learning
+				</p>
+			</div>
+			<div class="textBox">
+				<h3>Work Experience</h3>
+				<p class="jobTitle">
+					<a href="http://www.arista.com/en/" target="_blank"
+						class="color title">ARISTA NETWORKS</a> <i>Software
+						Engineering Intern </i><br />Santa Clara, California | June 2014 –
+					August 2014 <br />
+				</p>
+				<p class="description bottomGap">
+					-Formulated tests that ensure packets are correctly forwarded over
+					VXLAN connections and that dynamic MAC addresses are learned after
+					system configurations on hardware switches <br /> -Migrated ASIC
+					tables from C++ to a new, extensible python format that reduces
+					runtime space
+				</p>
+				<p class="jobTitle">
+					<a href="http://www.citigroup.com/citi/" target="_blank"
+						class="color title">CITI</a> <i>Technology Summer Analyst </i><br />New
+					York, New York | June 2013 – August 2013 <br />
+				</p>
+				<p class="description bottomGap">
+					-Created the frontend and backend of a WPF client application that
+					verifies the correctness of data within a KDB database for equity
+					trading desk heads and senior management <br /> -Constructed a
+					process that synchronizes KDB and Sybase databases whenever the
+					data is unsynchronized, which saves colleagues time from manually
+					checking and updating the data
+				</p>
+				<p class="jobTitle">
+					<a href="http://www.nationwide.com/" target="_blank"
+						class="color title">NATIONWIDE INSURANCE</a> <i>IT Development
+						Intern </i><br />Columbus, Ohio | June 2012 – August 2012
+				</p>
+				<p class="description bottomGap">
+					-Built an internal webpage for an automatic WSDL document generator
+					with an offline application of the software <br /> -Trained
+					Nationwide employees in uploading their services to the service
+					repository
+				</p>
+
+				<p class="jobTitle">
+					<a
+						href="http://hadron.techcorps.org/index.php/what-we-do/techie-camp"
+						target="_blank" class="color title"> TECH CORPS</a> <i>TECHie
+						Camps Advisor</i> <br /> Columbus, Ohio | July 2012
+				</p>
+				<p class="description">
+					-Taught 20 elementary school students computer science and
+					object-oriented programming by using Scratch <br /> -Advocated
+					good programming techniques while challenging their creative minds
+				</p>
+
+
+			</div>
+			<div class="textBox">
+				<h3>Relevant Courses</h3>
+				<p>
+					<span class="color title">PAST</span><br /> Object Oriented
+					Programming, Functional Programming, Systems Programming, Operating
+					Systems, Foundations of Artificial Intelligence, Decision Theory,
+					Information Retrieval, Machine Learning, Advanced Topics in Machine
+					Learning, Natural Language Processing
+				</p>
+				<p>
+					<span class="color title">CURRENT</span><br /> Evolutionary
+					Computation, Heuristic Methods for Optimization, Computational
+					Linguistics, Designing Technology for Social Impact
+				</p>
+			</div>
+			<div class="textBox">
+				<h3>Languages and Technologies</h3>
+				<p>
+					<span class="color title">Very Proficient</span> Java
+				</p>
+				<p>
+					<span class="color title">Proficient</span> C#, Python, OCaml,
+					HTML, CSS, jQuery
+				</p>
+				<p>
+					<span class="color title">Familiar</span> PHP, MongoDB, WPF, Groovy
+				</p>
+			</div>
+			<div class="textBox">
+				<h3>Other</h3>
+				<p>Ordinary People: Social Justice Theatre Troupe, Acting Coach
+					and Theatrical Director, September 2012 – present</p>
+				<p>
+					<a href="http://pma.cornell.edu/schwartz-center/" target="_blank"
+						class="color">Schwartz Center Theatre</a>, Actor, August 2010 –
+					present
+				</p>
+				<p>
+					<a href="http://apogamma.org/" target="_blank" class="color">Alpha
+						Phi Omega: Gamma Chapter</a>, Service-Oriented Fraternity, February
+					2012 – May 2014
+				</p>
+			</div>
+			<div class="textBox">
+				<p>
+					Download résumé <a
+						href="https://drive.google.com/a/cornell.edu/file/d/0B0nBI5-FDyzoUl9zZjhnNkZ6TkU/edit?usp=sharing"
+						target="_blank">here</a>.
+				</p>
+			</div>
+			<div class="close">
+				<p>close</p>
+			</div>
+			<br class="clear" />
+		</div>
+
+		<div>
+			<div id="exBox4"></div>
+			<div id="box3">
+				<div id="overlay3">
+					<div>
+						<h1>
+							<abbr title="Contact">Contact</abbr>
+						</h1>
+					</div>
+				</div>
+			</div>
+			<div id="box4">
+				<div id="overlay4">
+					<div>
+						<h1>
+							<abbr title="Projects">Projects</abbr>
+						</h1>
+					</div>
+				</div>
+			</div>
+			<div id="exBox5"></div>
+		</div>
+
+		<div id="box3TextBoxes">
+			<div class="clear">
+				<br />
+			</div>
+			<div class="textBox topLeftArrow">
+				<p>Feel free to contact me if you have questions or concerns
+					about any of the information on this page, including usability
+					issues, bugs in projects, or if you're interesting in working with
+					me.</p>
+
+				<p class="center">
+					<img src="{% static 'img/email.png' %}" alt="website_icon"
+						class="contactImg" /> <br /> Email: tsc64 at cornell dot edu
+				</p>
+				<p class="center">
+					<a href="https://www.linkedin.com/pub/tr%C3%A9-calhoun/52/636/9b6"
+						target="_blank"> <img src="{% static 'img/linkedin.png' %}"
+						alt="website_icon" class="contactImg" /> <br /> LinkedIn
+					</a>
+				</p>
+				<!-- 				<p class="center left halfWidth"> -->
+				<!-- 					<a href="https://www.linkedin.com/pub/tr%C3%A9-calhoun/52/636/9b6" -->
+				<!-- 						target="_blank"> <img src="{% static 'img/linkedin.png' %}" -->
+				<!-- 						alt="website_icon" class="contactImg" /> <br /> LinkedIn -->
+				<!-- 					</a> -->
+				<!-- 				</p> -->
+				<!-- 				<p class="center left halfWidth"> -->
+				<!-- 					<a href="https://github.com/tsc64" target="_blank"> <img -->
+				<!-- 						src="{% static 'img/github.png' %}" alt="website_icon" -->
+				<!-- 						class="contactImg" /> <br /> GitHub -->
+				<!-- 					</a> -->
+				<!-- 				</p> -->
+				<br class="clear" />
+
+			</div>
+			<div class="close">
+				<p>close</p>
+			</div>
+			<br class="clear" />
+		</div>
+
+		<div id="box4TextBoxes">
+			<div class="clear">
+				<br />
+			</div>
+			<div class="textBox topRightArrow">
+				<h3>Learning to Generate Natural Language Sentences (2014)</h3>
+				<p>A product of CS 6784: Advanced Topics in Machine Learning.</p>
+				<p>
+					This <a
+						href="https://drive.google.com/file/d/0B0nBI5-FDyzoVGFtUVREU2VFdnc/edit?usp=sharing"
+						target="_blank">paper</a> proposes several methods to generate
+					natural language sentences through unsupervised machine learning
+					using hidden Markov models and heuristic algorithms.
+				</p>
+				<p>Demo coming soon.</p>
+			</div>
+			<div class="textBox">
+				<h3>Advice Recommendation (2014)</h3>
+				<p>Completed as part of research for CS 5999: Master of
+					Engineering Project.</p>
+				<p>This project analyzes users' status updates to decide if they
+					are in need of advice. If so, it finds appropriate advice to
+					recommend.</p>
+				<p>Demo and paper coming soon.</p>
+			</div>
+			<div class="textBox">
+				<h3>Tre-Calhoun.rhcloud.com (2014)</h3>
+				<p>This website is running on a Django framework on Openshift
+					servers. Its design and backend are of my own production.</p>
+				<!-- 				<img src="img/website.png" alt="website_icon" /> -->
+				<img src="{% static 'img/website.png' %}" alt="website_icon"
+					class="projImg" />
+
+			</div>
+			<div class="textBox">
+				<h3>Casino Heist (2013)</h3>
+				<p>
+					Winner of the <span class="color">Director's Choice Award</span> at
+					the 2013 Game Design Initiative at Cornell Showcase!
+				</p>
+				<p>
+					This is fast-paced escape game, created by Zach Porges, Laurence
+					Rosenzweig, Keith Newman, Nicholas Tyson, Ryan Hall, and myself. I
+					served as the <span class="color">lead programmer</span>. This is a
+					product of CS 3152: Introduction to Computer Game Development.
+				</p>
+				<p>Story: JACK STEEL has just pulled off the heist of a
+					lifetime, but now the casino guards are on his tail. With no
+					weapons, JACK STEEL'S only tool is the very money he stole.</p>
+				<p>
+					<a
+						href="http://gdiac.cis.cornell.edu/gallery/download.php?name=casinoheist"
+						target="_blank">Download</a> it now! (Windows PC only)
+				</p>
+				<!-- 				<img src="img/casinoheist.png" alt="casino_heist" /> -->
+				<img src="{% static 'img/casinoheist.png' %}" alt="casino_heist"
+					class="projImg" />
+			</div>
+			<div class="textBox">
+				<h3>Destroy1/2 (2012)</h3>
+				<p>A Color Experience. A simple computer game made for fun,
+					created in Java.</p>
+				<p>
+					<a
+						href="https://drive.google.com/file/d/0B0nBI5-FDyzoWnc3dEM4U19BZTA/edit?usp=sharing"
+						target="_blank">Download</a> it now!
+				</p>
+				<!-- 				<img src="img/destroyhalf2.png" alt="destroy_half" /> -->
+				<img src="{% static 'img/destroyhalf2.png' %}" alt="destroy_half"
+					class="projImg" />
+			</div>
+			<div class="close">
+				<p>close</p>
+			</div>
+			<br class="clear" />
+		</div>
+
+		<div class="clear"></div>
+		<!-- 		<br/> -->
+		<!-- 		<img class="left" src="img/DestroyHalf2.jpg"/> -->
+		<!-- 		<img class="left" src="img/DestroyHalf5.jpg"/> -->
+		<!-- 		<img class="left" src="img/DestroyHalf.jpg"/> -->
+	</div>
+
+</body>
+</html>
